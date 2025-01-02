@@ -1,0 +1,118 @@
+.nav_links {
+  display: none;
+}
+.header_nav{
+    padding: 15px 10px;
+}
+
+.header_left {
+  display: flex;
+  gap: 8px;
+  .header_hamburger {
+    border: none;
+    background-color: inherit;
+  }
+
+  .header_select {
+    border: none;
+    outline: none;
+    width: 15px;
+  }
+  .header_btn {
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #184afb;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    padding: 8px 12px;
+    font-family: "Michroma";
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+    text-align: left;
+    text-transform: uppercase;
+
+  }
+}
+
+
+@media (min-width:475px) {
+    .nav_links {
+        display: none;
+      }
+      .header_nav{
+          padding: 15px 20px;
+      }
+      
+      .header_left {
+        display: flex;
+        gap: 13px;
+        .header_hamburger {
+          border: none;
+          background-color: inherit;
+        }
+      
+        .header_select {
+          border: none;
+          outline: none;
+          width: 15px;
+        }
+        .header_btn {
+          background-color: inherit;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #184afb;
+          border-radius: 10px;
+          border: 1px solid #cccccc;
+          padding: 10px 14px;
+          font-family: "Michroma";
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 10px;
+          text-align: left;
+          text-transform: uppercase;
+        }
+      }
+}
+@media (min-width:575px) {
+    .nav_links {
+        display: none;
+      }
+      .header_nav{
+          padding: 15px 20px;
+      }
+      
+      .header_left {
+        display: flex;
+        gap: 13px;
+        .header_hamburger {
+          border: none;
+          background-color: inherit;
+        }
+      
+        .header_select {
+          border: none;
+          outline: none;
+          width: 15px;
+        }
+        .header_btn {
+          background-color: inherit;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #184afb;
+          border-radius: 10px;
+          border: 1px solid #cccccc;
+          padding: 10px 14px;
+          font-family: "Michroma";
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 10px;
+          text-align: left;
+          text-transform: uppercase;
+        }
+      }
+}
