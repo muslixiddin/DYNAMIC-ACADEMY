@@ -96,7 +96,6 @@
         .header_select {
           border: none;
           outline: none;
-          width: 15px;
         }
         .header_btn {
           background-color: inherit;
@@ -111,6 +110,100 @@
           font-size: 12px;
           font-weight: 300;
           line-height: 10px;
+          text-align: left;
+          text-transform: uppercase;
+        }
+      }
+}
+@media (min-width:768px) {
+    .nav_links {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        a{
+            color: #828388;
+            font-family: "poppins";
+        }
+      }
+      .header_nav{
+          padding: 15px 20px;
+      }
+      
+      .header_left {
+        display: flex;
+        gap: 13px;
+        .header_hamburger {
+          border: none;
+          background-color: inherit;
+          display: none;
+        }
+      
+        .header_select {
+          border: none;
+          outline: none;
+        }
+        .header_btn {
+          background-color: inherit;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #184afb;
+          border-radius: 10px;
+          border: 1px solid #cccccc;
+          padding: 10px 14px;
+          font-family: "Michroma";
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 10px;
+          text-align: left;
+          text-transform: uppercase;
+        }
+      }
+}
+@media (min-width:768px) {
+    .nav_links {
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+        a{
+            color: #828388;
+            font-family: "poppins";
+        }
+      }
+      .header_nav{
+          padding: 15px 20px;
+      }
+      
+      .header_left {
+        display: flex;
+        gap: 19px;
+        .header_hamburger {
+          border: none;
+          background-color: inherit;
+          display: none;
+        }
+      
+        .header_select {
+          border: none;
+          outline: none;
+        }
+        .header_btn {
+          background-color: inherit;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #184afb;
+          border-radius: 10px;
+          border: 1px solid #cccccc;
+          padding: 12px 16px;
+          font-family: "Michroma";
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 13px;
           text-align: left;
           text-transform: uppercase;
         }
