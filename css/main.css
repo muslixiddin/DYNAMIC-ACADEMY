@@ -688,574 +688,254 @@ button {
     color: #828388;
   }
 }
-.maqsadimiz .maqsadimiz_wrapper .about_circle {
-  display: flex;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  align-items: center;
-  gap: 8px;
+.maqsadimiz {
+  margin-top: 30px;
 }
-.maqsadimiz .maqsadimiz_wrapper .circle {
-  width: 20px;
-  height: 20px;
-  background-color: #184afb;
-  border-radius: 50%;
+.maqsadimiz .maqsadimiz_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
 }
 .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_title {
+  padding-top: 30px;
+  width: 300px;
   font-family: "Poppins";
   font-size: 20px;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  line-height: 25px;
   color: #2e3038;
-  text-transform: uppercase;
 }
-.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
-  border: none;
-  border-radius: 8px;
-  background-color: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 5px;
-  width: 310px;
+.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main p {
+  padding-top: 15px;
+  width: 247px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 16px;
+  color: #828388;
 }
-.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card .maqsadimiz_img {
-  width: 250px;
-  height: 250px;
-}
-.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_text {
-  font-family: "Michroma";
-  font-size: 8px;
-  font-weight: 300;
-  line-height: 14px;
+.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main_btn {
+  margin-top: 14px;
+  color: #184afb;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   letter-spacing: 0.01em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  max-width: 526px;
-}
-.maqsadimiz .maqsadimiz_wrapper ._maqsadimiz_text_btn {
-  padding: 8px 12px;
-  border: none;
+  border-radius: 20px;
+  padding: 6px 18px;
+  border: 1px solid #CCCCCC;
   background-color: inherit;
-  margin-left: 15px;
 }
-.maqsadimiz .maqsadimiz_wrapper .span {
-  max-width: 610px;
+.maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
+  margin-top: 15px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 10px;
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 5px;
-  margin-bottom: 7px;
+  justify-content: center;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #CCCCCC;
+  border-radius: 12px;
 }
 
 @media (min-width: 768px) {
-  .maqsadimiz .maqsadimiz_wrapper .about_circle {
+  .maqsadimiz {
+    margin-top: 30px;
+  }
+  .maqsadimiz .maqsadimiz_wrapper {
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    gap: 8px;
-  }
-  .maqsadimiz .maqsadimiz_wrapper .circle {
-    width: 20px;
-    height: 20px;
-    background-color: #184afb;
-    border-radius: 50%;
-  }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_title {
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #2e3038;
-    text-transform: uppercase;
-  }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
-    border: none;
-    border-radius: 8px;
-    background-color: #f5f5f5;
-    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    padding: 5px;
+  }
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_title {
+    padding-top: 30px;
+    width: 350px;
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 630;
+    line-height: 25px;
+    color: #2e3038;
+  }
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main p {
+    padding-top: 19px;
     width: 310px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 370;
+    line-height: 16px;
+    color: #828388;
   }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card .maqsadimiz_img {
-    width: 250px;
-    height: 250px;
-  }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_text {
-    font-family: "Michroma";
-    font-size: 12px;
-    font-weight: 350;
-    line-height: 14px;
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main_btn {
+    margin-top: 16px;
+    color: #184afb;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    max-width: 526px;
-  }
-  .maqsadimiz .maqsadimiz_wrapper ._maqsadimiz_text_btn {
-    padding: 8px 12px;
-    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    border: 1px solid #CCCCCC;
     background-color: inherit;
-    margin-left: 15px;
   }
-  .maqsadimiz .maqsadimiz_wrapper .span {
-    max-width: 610px;
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
+    margin-top: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: 5px;
-    margin-bottom: 7px;
-  }
-  .maqsadimiz_wrapper_bottom {
-    display: flex;
-    gap: 20px;
-  }
-  .maqsadimiz_wrapper_bottom_text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
   }
 }
 @media (min-width: 1200px) {
-  .maqsadimiz .maqsadimiz_wrapper .about_circle {
-    display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    gap: 8px;
+  .maqsadimiz {
+    margin-top: 30px;
   }
-  .maqsadimiz .maqsadimiz_wrapper .circle {
-    width: 20px;
-    height: 20px;
-    background-color: #184afb;
-    border-radius: 50%;
+  .maqsadimiz .maqsadimiz_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
   }
   .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_title {
-    padding-top: 10px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    width: 350px;
     font-family: "Poppins";
-    width: 432px;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 52px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
+    font-size: 26px;
+    font-weight: 630;
+    line-height: 25px;
     color: #2e3038;
-    text-transform: uppercase;
   }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
-    border: none;
-    border-radius: 8px;
-    background-color: #f5f5f5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    padding: 5px;
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main p {
+    padding-top: 19px;
     width: 310px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 370;
+    line-height: 16px;
+    color: #828388;
   }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card .maqsadimiz_img {
-    width: 250px;
-    height: 250px;
-  }
-  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_text {
-    font-family: "Michroma";
-    font-size: 12px;
-    font-weight: 350;
-    line-height: 14px;
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_main_btn {
+    margin-top: 16px;
+    color: #184afb;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     letter-spacing: 0.01em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    max-width: 526px;
-  }
-  .maqsadimiz .maqsadimiz_wrapper ._maqsadimiz_text_btn {
-    padding: 8px 12px;
-    border: none;
+    border-radius: 20px;
+    padding: 6px 18px;
+    border: 1px solid #CCCCCC;
     background-color: inherit;
-    margin-left: 15px;
   }
-  .maqsadimiz .maqsadimiz_wrapper .span {
-    max-width: 610px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    border-bottom: 1px solid #cccccc;
-    padding-bottom: 5px;
-    margin-bottom: 7px;
-  }
-  .maqsadimiz_wrapper_bottom {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .maqsadimiz_wrapper_bottom_text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .maqsadimiz_h2 {
+  .maqsadimiz .maqsadimiz_wrapper .maqsadimiz_card {
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #CCCCCC;
+    border-radius: 12px;
   }
 }
-.talim-circle {
+.talim_circle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.talim_circle .circle {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   background-color: #184afb;
 }
-
-.for-talim {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  padding-top: 10px;
-}
-.for-talim h2 {
-  width: 57px;
+.talim_circle .circle_text {
   font-family: "Michroma";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   color: #56585e;
 }
 
-.talim h2 {
-  width: 300px;
-  font-family: "Poppins";
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 26px;
-  color: #2e3038;
-  text-transform: uppercase;
-  padding-top: 13px;
+.talim_wrapper .talim_cards .talim_card {
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.8);
+  max-width: 394px;
 }
-
-.talim-cards {
-  width: 320px;
-  height: 280px;
-  margin-top: 20px;
-  border-radius: 12px;
-  border: 1px;
-  border: 1px solid #cccccc;
-  padding: 20px 20px 20px 20px;
-  background-color: transparent;
-}
-.talim-cards h3 {
-  width: 300px;
+.talim_wrapper .talim_cards .talim_card .talim_card_text {
+  max-width: 394px;
+  padding-top: 15px;
   font-family: "Michroma";
-  font-size: 10px;
-  font-weight: 200;
-  line-height: 14px;
-  color: #2e3038;
-  text-transform: uppercase;
-}
-
-.talim-card-title {
-  font-family: "Poppins";
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 14px;
+  font-size: 12px;
+  font-weight: 350;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   color: rgba(46, 48, 56, 0.6);
 }
-.talim-card-title span {
-  width: 106px;
-  background-color: transparent;
-  align-items: center;
-  display: flex;
-  gap: 10px;
-  padding-top: 8px;
-}
-.talim-card-title span button {
-  border: none;
-  background-color: transparent;
-  color: #184afb;
-  font-family: "Poppins";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-}
 
-.talim-pic {
-  width: 180px;
-  height: 150px;
-}
-
-@media (min-width: 475px) {
-  .talim-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #184afb;
-  }
-  .for-talim {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    padding-top: 10px;
-  }
-  .for-talim h2 {
-    width: 57px;
-    font-family: "Michroma";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #56585e;
-  }
-  .talim h2 {
-    width: 300px;
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 26px;
-    color: #2e3038;
-    text-transform: uppercase;
-    padding-top: 13px;
-    margin: auto;
-  }
-  .talim-cards {
-    width: 350px;
-    height: 325px;
-    margin-top: 20px;
-    border-radius: 12px;
-    border: 1px;
-    border: 1px solid #cccccc;
-    padding: 20px 20px 20px 20px;
-    background-color: transparent;
-    margin: auto;
-    margin-top: 20px;
-  }
-  .talim-cards h3 {
-    width: 350px;
-    font-family: "Michroma";
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 16px;
-    color: #2e3038;
-    text-transform: uppercase;
-  }
-  .talim-card-title {
-    font-family: "Poppins";
-    font-size: 15.5px;
-    font-weight: 400;
-    line-height: 16px;
-    color: rgba(46, 48, 56, 0.6);
-  }
-  .talim-card-title span {
-    width: 106px;
-    background-color: transparent;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    padding-top: 8px;
-  }
-  .talim-card-title span button {
-    border: none;
-    background-color: transparent;
-    color: #184afb;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-  }
-  .talim-pic {
-    width: 220px;
-    height: 180px;
-  }
-}
 @media (min-width: 768px) {
-  .talim-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #184afb;
+  .talim_wrapper .talim_cards {
+    display: grid;
+    grid-template-columns: auto auto;
   }
-  .for-talim {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    padding-top: 10px;
+  .talim_wrapper .talim_cards .talim_card {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.8);
+    max-width: 394px;
   }
-  .for-talim h2 {
-    width: 57px;
+  .talim_wrapper .talim_cards .talim_card .talim_card_text {
+    max-width: 394px;
+    padding-top: 15px;
     font-family: "Michroma";
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
-    color: #56585e;
-  }
-  .talim h2 {
-    width: 300px;
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 28px;
-    color: #2e3038;
-    text-transform: uppercase;
-    padding-top: 13px;
-  }
-  .talim-cards {
-    width: 350px;
-    height: 325px;
-    margin-top: 20px;
-    border-radius: 12px;
-    border: 1px;
-    border: 1px solid #cccccc;
-    padding: 20px 20px 20px 20px;
-    background-color: transparent;
-    margin-top: 20px;
-  }
-  .talim-cards h3 {
-    width: 350px;
-    font-family: "Michroma";
-    font-size: 14px;
-    font-weight: 300;
     line-height: 16px;
-    color: #2e3038;
-    text-transform: uppercase;
-  }
-  .talim-card-title {
-    font-family: "Poppins";
-    font-size: 15.5px;
-    font-weight: 400;
-    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
     color: rgba(46, 48, 56, 0.6);
   }
-  .talim-card-title span {
-    width: 106px;
-    background-color: transparent;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    padding-top: 8px;
-  }
-  .talim-card-title span button {
-    border: none;
-    background-color: transparent;
-    color: #184afb;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-  }
-  .talim-pic {
-    width: 220px;
-    height: 180px;
-  }
 }
-.for-talim-cards {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-@media (min-width: 1200px) {
-  .talim-circle {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: #184afb;
-  }
-  .for-talim {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    padding-top: 10px;
-  }
-  .for-talim h2 {
-    width: 57px;
-    font-family: "Michroma";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #56585e;
-  }
-  .talim h2 {
-    width: 654px;
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 52px;
-    color: #2e3038;
-  }
-  .talim-cards {
-    width: 350px;
-    height: 325px;
-    margin-top: 20px;
-    border-radius: 12px;
-    border: 1px;
-    border: 1px solid #cccccc;
-    padding: 20px 20px 20px 20px;
-    background-color: transparent;
-    margin-top: 20px;
-  }
-  .talim-cards h3 {
-    width: 350px;
-    font-family: "Michroma";
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 16px;
-    color: #2e3038;
-    text-transform: uppercase;
-  }
-  .talim-card-title {
-    font-family: "Poppins";
-    font-size: 15.5px;
-    font-weight: 400;
-    line-height: 16px;
-    color: rgba(46, 48, 56, 0.6);
-  }
-  .talim-card-title span {
-    width: 106px;
-    background-color: transparent;
-    align-items: center;
-    display: flex;
-    gap: 10px;
-    padding-top: 8px;
-  }
-  .talim-card-title span button {
-    border: none;
-    background-color: transparent;
-    color: #184afb;
-    font-family: "Poppins";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 18px;
-  }
-  .talim-pic {
-    width: 220px;
-    height: 180px;
-  }
-  .for-talim-cards {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 120px;
-  }
-}
-.four {
-  border-bottom: 1px solid #cccccc;
-  padding-bottom: 120px;
-}
-
 .about-circle {
   display: flex;
   align-items: center;
@@ -1371,40 +1051,52 @@ span button {
     flex-wrap: nowrap;
   }
 }
+.footer {
+  margin-top: 50px;
+}
 .footer .footer_wrapper {
-  padding-top: 15px;
   display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #56585e;
-  padding-bottom: 20px;
+  justify-content: space-between;
+  padding: 0 0;
 }
 .footer .footer_wrapper .footer_left {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 15px;
-}
-.footer .footer_wrapper .footer_left_links {
-  display: flex;
-  gap: 50px;
   align-items: center;
-  gap: 12px;
 }
-.footer .footer_wrapper .footer_left_iterms {
+.footer .footer_wrapper .footer_links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer .footer_wrapper .footer_link {
   display: flex;
   flex-direction: column;
-  gap: 9px;
+  gap: 10px;
 }
-.footer .footer_wrapper .footer_right_span {
+.footer .footer_wrapper .footer_item a {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: "from-font";
+  text-decoration-skip-ink: none;
+  color: #56585e;
+}
+.footer .footer_right_card {
   display: flex;
   align-items: center;
-  gap: 15px;
+  border-bottom: 1px solid #CCCCCC;
   padding-bottom: 10px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #56585e;
+  margin-bottom: 20px;
+  gap: 30px;
 }
-.footer .footer_wrapper .footer_right_span .footer_right_span_text {
-  font-family: Michroma;
+.footer .footer_right_card .footer_right_little_card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Michroma";
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1413,32 +1105,255 @@ span button {
   text-decoration-skip-ink: none;
   color: #56585e;
 }
-.footer .footer_wrapper .footer_right {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+.footer .footer_right_card .footer_right_little_card p {
+  display: none;
 }
 .footer .footer_bottom {
-  padding-top: 30px;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  flex-direction: column;
+  display: none;
 }
-.footer .footer_bottom .footer_bottom_btn {
-  background-color: #56585e;
-  border: none;
-  border-radius: 20px;
-  color: #ffffff;
-  font-family: "Michroma";
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  padding: 14px 40px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+
+@media (min-width: 468px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+  }
+  .footer .footer_wrapper .footer_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .footer_wrapper .footer_links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer .footer_wrapper .footer_link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer_wrapper .footer_item a {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  .footer .footer_right_card .footer_right_little_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Michroma";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card .footer_right_little_card p {
+    display: block;
+  }
+  .footer .footer_bottom {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+  }
+  .footer .footer_wrapper .footer_left {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 50px;
+  }
+  .footer .footer_wrapper .footer_links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .footer .footer_wrapper .footer_link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer_wrapper .footer_item a {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  .footer .footer_right_card .footer_right_little_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Michroma";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card .footer_right_little_card p {
+    display: block;
+  }
+  .footer .footer_bottom {
+    display: none;
+  }
+}
+@media (min-width: 965px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .footer .footer_wrapper .footer_left {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 50px;
+  }
+  .footer .footer_wrapper .footer_links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .footer .footer_wrapper .footer_link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer_wrapper .footer_item a {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
+  }
+  .footer .footer_right_card .footer_right_little_card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Michroma";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card .footer_right_little_card p {
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    margin-top: 50px;
+  }
+  .footer .footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .footer .footer_wrapper .footer_left {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 100px;
+  }
+  .footer .footer_wrapper .footer_links {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  .footer .footer_wrapper .footer_link {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer .footer_wrapper .footer_item a {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: "from-font";
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    gap: 50px;
+  }
+  .footer .footer_right_card .footer_right_little_card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Michroma";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #56585e;
+  }
+  .footer .footer_right_card .footer_right_little_card p {
+    display: block;
+  }
 }

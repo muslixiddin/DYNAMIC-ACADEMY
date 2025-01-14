@@ -1,0 +1,279 @@
+.for-imkoniyat {
+
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    gap: 8px;
+    padding-bottom: 10px;
+
+
+    h3 {
+        font-family: "Michroma";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2E303899;
+
+
+    }
+
+}
+
+.imkoniyat-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #184afb;
+
+
+
+
+}
+
+.imkoniyat {
+    h2 {
+        width: 335px;
+        font-family: "Poppins";
+        font-size: 26px;
+        font-weight: 550;
+        color: #2E3038;
+        text-transform: uppercase;
+        padding-left: 40px;
+
+
+
+    }
+}
+
+.imkoniyat-card {
+    border-bottom: 2px solid #D9D9D9;
+    width: 250px;
+    padding-bottom: 10px;
+
+}
+
+.for-imkoniyat-card {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 15px;
+}
+
+
+@media (min-width:468px) {
+
+
+    .for-imkoniyat {
+
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        gap: 8px;
+
+
+        h3 {
+            font-family: "Michroma";
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #2E303899;
+
+        }
+
+    }
+
+    .imkoniyat-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #184afb;
+
+
+    }
+
+    .imkoniyat {
+        h2 {
+            width: 335px;
+            font-family: "Poppins";
+            font-size: 26px;
+            font-weight: 550;
+            color: #2E3038;
+            text-transform: uppercase;
+            padding-left: 75px;
+
+
+
+        }
+    }
+
+    .imkoniyat-card {
+        border-bottom: 2px solid #D9D9D9;
+        width: 250px;
+        padding-bottom: 10px;
+
+    }
+
+    .for-imkoniyat-card {
+        padding-left: 110px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 15px;
+    }
+
+
+}
+
+@media (min-width:768px) {
+
+
+    .for-imkoniyat {
+
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        gap: 8px;
+
+
+
+
+        h3 {
+            font-family: "Michroma";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #2E303899;
+            padding-bottom: 30px;
+
+        }
+
+    }
+
+    .imkoniyat-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #184afb;
+        margin-bottom: 30px;
+
+
+    }
+
+    .imkoniyat {
+        h2 {
+            width: 335px;
+            font-family: "Poppins";
+            font-size: 25px;
+            font-weight: 600;
+            color: #2E3038;
+            text-transform: uppercase;
+            padding-left: 85px;
+       
+
+
+
+        }
+    }
+
+    .imkoniyat-card {
+        border-bottom: 2px solid #D9D9D9;
+        width: 250px;
+        height: 135px;
+        padding-bottom: 10px;
+
+    }
+
+    .for-imkoniyat-card {
+        width: 740px;
+        height: 460px;
+        padding-left: 90px;
+        gap: 25px;
+        padding-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+}
+
+@media (min-width:1200px) {
+
+
+    .for-imkoniyat {
+
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 15px;
+        gap: 8px;
+
+
+
+
+        h3 {
+            font-family: "Michroma";
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #2E303899;
+            padding-bottom: 30px;
+
+        }
+
+    }
+
+    .imkoniyat-circle {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #184afb;
+     
+
+
+    }
+
+    .imkoniyat {
+
+        h2 {
+            width: 600px;
+            font-family: "Poppins";
+            font-size: 35px;
+            font-weight: 600;
+            color: #2E3038;
+            text-transform: uppercase;
+            padding-left: 250px;
+
+       
+
+
+
+        }
+    }
+
+
+    .imkoniyat-card {
+        border-bottom: 2px solid #D9D9D9;
+        width: 270px;
+        height: 135px;
+        padding-bottom: 10px;
+
+    }
+
+    .for-imkoniyat-card {
+        width: 1000px;
+        height: 460px;
+        padding-left: 250px;
+        gap: 60px;
+        padding-top: 15px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+}
